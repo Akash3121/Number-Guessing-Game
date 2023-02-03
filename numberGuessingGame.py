@@ -18,7 +18,6 @@ if question == 'y' or question == 'Y':
             #Inform User about his/her Guess number selection, to select precisely
             if guess > number:
                 print("your selction is high")
-            
             else:
                 print("you selection is low")
             
@@ -28,7 +27,6 @@ if question == 'y' or question == 'Y':
             tries += 1
             
         if number == guess:
-            
             print("Your guess is correct\n")
             print("The number was ",number)
             print("No of tries:",tries)
